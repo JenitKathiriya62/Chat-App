@@ -8,7 +8,7 @@ const io = require("socket.io")(http);
 const User = require("./models/userModel");
 const Chat = require("./models/chatModel");
 
-mongoose.connect("mongodb+srv://jenitpatel62:jenit126204@cluster0.7vfbpbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb url here");
 
 app.use("/", userRoute);
 
